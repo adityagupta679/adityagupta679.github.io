@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
+title:       Aditya Gupta's Blog
+email:       adityagupta679@gmail.com
+author:      Aditya Gupta
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://adityagupta679.github.io/"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -20,7 +20,7 @@ bing_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
+show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -42,14 +42,14 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username:  adityagupta679
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username:  adityagupta679
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -98,8 +98,8 @@ text:
     ajax:
       sending:  'sending..'
       sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+      error:    'Error!'  
+  thanks: 'Thanks for contacting. I will reply as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
@@ -107,6 +107,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
+#permalink:   /:categories/:title/
 paginate:     4
 sass:
   compressed: true
